@@ -35,7 +35,7 @@ namespace towDigits {
         if (n < 0) {
             led.plot(2, 2)
         }
-        if (a != 0 || ! full) {
+        if (a != 0 || full) {
             showN(a,  10)
         }
 
