@@ -25,7 +25,8 @@ namespace towDigits {
      * @param full boolean, eg: true
      */
     //% block="show number %n|always show 2 digits %full"
-    //% block.loc.ja="数字 %n を表示する|いつも2桁にする %full"
+    //% block.loc.ja="数を表示 %n|いつも2桁にする %full"
+    //% blockExternalInputs=1
     export function showNumber(n: number, full: boolean = false): void {
         
         const nn = Math.abs(n)
